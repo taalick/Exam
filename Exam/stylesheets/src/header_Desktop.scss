@@ -1,0 +1,113 @@
+@media (min-width: 960px) {
+	.header{	
+		.holidayDreams{
+			background: url('../../img/Desktop/SmartObject.png') no-repeat;			
+			height: 700px;
+			background-size: cover;
+			.hl-dreams{
+    			position: relative;
+    			width: 80%;
+    			height: 50px;
+    			margin: 0 auto;
+    			padding-top: 30px;
+    			
+				form{
+					position: absolute;					
+					width: 200px;					
+					right: 0px;	
+			
+					input{			
+						color: white;
+						font-family: Montserrat;
+						font-size: 14px;
+						font-weight: 700;			
+						width: 90px;
+						height: 36px;
+						background: rgba(255, 255, 255, 0.01);
+						border: 0px solid white;				
+					}
+				}
+				input:hover{
+					border: 2px solid white;
+					border-radius: 18px;
+				}				
+				.urlaubsgluck{
+					position: absolute;				
+					left: 0px;
+					width: 177px;
+					height: 20px;
+					margin: 0 auto;
+					color: white;
+					font-family: Montserrat;
+					font-size: 20px;
+					font-weight: 700;
+					text-transform: uppercase;
+				}
+			}
+			.holidayDreamstext{
+				width: 300px;
+				height: 70px;
+				margin: 0 auto;
+				color: white;
+				font-family: Montserrat;
+				font-size: 30px;
+				font-weight: 700;
+				text-transform: uppercase;
+				text-align: center;
+				margin-top: 185px;
+			}
+			.perfectPartner{
+				width: 310px;
+	    		height: 50px;
+				margin: 0 auto;
+				color: white;
+				font-family: Roboto;
+				font-size: 18px;
+				font-weight: 300;
+				text-align: center;
+				padding: 75px;			
+			}
+			button{
+				display: block;
+				margin: 0 auto;
+				color: white;
+				font-family: Montserrat;
+				font-size: 14px;
+				font-weight: 700;
+				width: 280px;
+				height: 40px;
+				background-color: #ff4e50;
+				border-radius: 20px;
+
+
+				/*color: white;
+				font-family: Montserrat;
+				font-size: 14px;
+				font-weight: 700;		
+				width: 160px;
+				height: 40px;
+				background-color: #ff4e50;
+				border-radius: 20px;*/
+			}		
+		}
+		.hu-works{
+			width: 290px;
+			height: 30px;
+			color: #333;
+			font-family: Montserrat, sans-serif;
+			font-size: 22px;
+			font-weight: 700;
+			margin: 0px auto;
+			margin-top: 20px;
+			margin-bottom: 15px;
+		}		
+	}
+	.howWorks{
+		width: 960px;
+    	margin: 0 auto;
+	}
+	.jcarousel-wrapper {
+    	float: left;
+    	margin-right: 17px;
+	}
+}
